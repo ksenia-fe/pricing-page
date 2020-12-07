@@ -1,0 +1,14 @@
+@import 'price-card';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #141b1c;
+}

@@ -1,0 +1,127 @@
+.price-tables {
+  display: flex;
+  margin-top: 115px;
+}
+
+.price-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-left: 18px;
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+  overflow: hidden;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &__title {
+    margin: 0;
+    margin-top: 33px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    color: #ffffff;
+  }
+
+  &__subtitle {
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+
+  &__price {
+    margin-top: 33px;
+    height: 105px;
+    text-align: center;
+    line-height: 105px;
+    font-weight: 700;
+    font-size: 55px;
+    color: #ffffff;
+  }
+
+  &__description {
+    margin: 40px 26px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+
+  &__option-item {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 50px;
+    color: #ffffff;
+
+    &:nth-child(1),
+    &:nth-child(3),
+    &:nth-child(5) {
+      background-color: #2a3438;
+    }
+  }
+
+  &__option-check {
+    margin: 0 22px;
+  }
+
+  &__option-service {
+    margin: 0;
+  }
+
+  &__order-btn {
+    margin: auto;
+    margin-top: 39px;
+    padding: 11px 27px 12px 28px;
+    width: 155px;
+    color: #ffffff;
+    background-color: #3a6ba5;
+    font-size: 14px;
+    line-height: 17px;
+    border: 0;
+    border-radius: 20px;
+  }
+
+  &__popular {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+    transform: rotate(45deg);
+    width: 147px;
+    background-color: #dc3f45;
+    text-align: center;
+
+    &-inscrip {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 25px;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.price_green,
+.btn_green {
+  background-color: #5bb189;
+}
+
+.price_blue,
+.btn_blue {
+  background-color: #3a6ba5;
+}
+
+.price_orange,
+.btn_orange {
+  background-color: #ec632a;
+}
