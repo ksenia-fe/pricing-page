@@ -6,7 +6,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: 0;
   margin-left: 18px;
   width: 380px;
   height: 770px;
@@ -119,6 +119,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
   width: 1400px;
   height: 1000px;
   font-family: "Montserrat", sans-serif;
