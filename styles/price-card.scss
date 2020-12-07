@@ -56,13 +56,13 @@
     color: #ffffff;
   }
 
-  &__option-list {
+  &__options-list {
     margin: 0;
     padding: 0;
     list-style-type: none;
   }
 
-  &__option-item {
+  &__options-item {
     display: flex;
     align-items: center;
     font-weight: 300;
@@ -77,11 +77,11 @@
     }
   }
 
-  &__option-check {
+  &__options-check {
     margin: 0 22px;
   }
 
-  &__option-service {
+  &__options-service {
     margin: 0;
   }
 

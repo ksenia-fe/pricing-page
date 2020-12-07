@@ -51,12 +51,12 @@
   line-height: 18px;
   color: #ffffff;
 }
-.price-card__option-list {
+.price-card__options-list {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-.price-card__option-item {
+.price-card__options-item {
   display: flex;
   align-items: center;
   font-weight: 300;
@@ -64,13 +64,13 @@
   line-height: 50px;
   color: #ffffff;
 }
-.price-card__option-item:nth-child(1), .price-card__option-item:nth-child(3), .price-card__option-item:nth-child(5) {
+.price-card__options-item:nth-child(1), .price-card__options-item:nth-child(3), .price-card__options-item:nth-child(5) {
   background-color: #2a3438;
 }
-.price-card__option-check {
+.price-card__options-check {
   margin: 0 22px;
 }
-.price-card__option-service {
+.price-card__options-service {
   margin: 0;
 }
 .price-card__order-btn {
