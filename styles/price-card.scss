@@ -56,6 +56,11 @@
     color: #ffffff;
   }
 
+  &__option-list {
+    padding: 0;
+    list-style-type: none;
+  }
+
   &__option-item {
     display: flex;
     align-items: center;
