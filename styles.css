@@ -13,6 +13,9 @@
   background-color: #334247;
   overflow: hidden;
 }
+.price-card:first-child {
+  margin-left: 0;
+}
 .price-card__title {
   margin: 0;
   margin-top: 33px;
