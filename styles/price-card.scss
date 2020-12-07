@@ -11,7 +11,7 @@
   margin-left: 18px;
   width: 380px;
   height: 770px;
-  background-color: #334247;
+  background-color: $card-background;
   overflow: hidden;
 
   &:first-child {
@@ -25,7 +25,7 @@
     font-weight: 700;
     font-size: 35px;
     line-height: 43px;
-    color: #ffffff;
+    color: $main-text-color;
   }
 
   &__subtitle {
@@ -34,7 +34,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #ffffff;
+    color: $main-text-color;
   }
 
   &__price {
@@ -44,7 +44,7 @@
     line-height: 105px;
     font-weight: 700;
     font-size: 55px;
-    color: #ffffff;
+    color: $main-text-color;
   }
 
   &__description {
@@ -53,7 +53,7 @@
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
-    color: #ffffff;
+    color: $main-text-color;
   }
 
   &__options-list {
@@ -68,7 +68,7 @@
     font-weight: 300;
     font-size: 15px;
     line-height: 50px;
-    color: #ffffff;
+    color: $main-text-color;
 
     &:nth-child(1),
     &:nth-child(3),
@@ -90,8 +90,7 @@
     margin-top: 39px;
     padding: 11px 27px 12px 28px;
     width: 155px;
-    color: #ffffff;
-    background-color: #3a6ba5;
+    color: $main-text-color;
     font-size: 14px;
     line-height: 17px;
     border: 0;
@@ -111,7 +110,7 @@
       font-weight: bold;
       font-size: 14px;
       line-height: 25px;
-      color: #ffffff;
+      color: $main-text-color;
       text-transform: uppercase;
     }
   }
@@ -119,15 +118,15 @@
 
 .price_green,
 .btn_green {
-  background-color: #5bb189;
+  background-color: $green-card-background;
 }
 
 .price_blue,
 .btn_blue {
-  background-color: #3a6ba5;
+  background-color: $blue-card-background;
 }
 
 .price_orange,
 .btn_orange {
-  background-color: #ec632a;
+  background-color: $orange-card-background;
 }

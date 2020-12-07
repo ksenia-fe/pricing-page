@@ -1,3 +1,4 @@
+@import 'variables';
 @import 'price-card';
 
 * {
@@ -12,5 +13,5 @@ body {
   width: 1400px;
   height: 1000px;
   font-family: 'Montserrat', sans-serif;
-  background-color: #141b1c;
+  background-color: $main-background;
 }
