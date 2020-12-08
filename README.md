@@ -5,10 +5,10 @@ you can see it at https://ksenia-front-end.github.io/pricing-page/
 
 ## Tech Stack
 
-1. HTML
-2. CSS
-3. Sass
+- HTML5
+- CSS3
+- Sass(SCSS)
+- Flexbox
+- BEM methodology
 
-## Author
-
-Belikova Ksenia
+## Author: ### Belikova Ksenia
